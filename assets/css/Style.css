@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap);
+
+*{  margin: 0;
+    padding: 0;
+	box-sizing: border-box;}
+
+header{
+    background-color: rgba(222, 184, 135, 0.897);
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;}
+
+body {
+    background-image: url(https://reader020.staticloud.net/reader020/html5/20190719/5c5e5aab09d3f20b6b8bafd8/bg2.png);
+    text-align: center;
+    font-family: 'Courgette', sans-serif;}
+
+.navigation{
+    margin-top: -40px;
+    display: flex;
+    margin-left: 170px;}
+
+.logo{font-size: 50px;}  
+
+.button{
+    margin-right: 15px;
+    border-color: black;
+    height: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(255, 136, 0, 0.541);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px white;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    width: 100px;
+    margin-top: 70px;}  
+
+.button:hover{
+    color: rgb(44, 44, 44);
+    background-color: #8fd3d8;}
+
+.botones{
+    margin-top: 45px;
+    margin-left: 90px;}   
+     
+h2{ 
+    margin-top: 25px;
+    margin-bottom: 20px;}
+
+.i{font-size: 25px;}
+    
+.img{
+    width: 700px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+.intro{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 35px;
+    padding-right: 35px;}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;}
+
+.chef{
+    height: 315px;
+    width: 203px;
+    border-radius: 8px; 
+    background: linear-gradient(180deg, #7adfe6 0%, rgba(197, 230, 122, 0) 100%);
+    box-shadow: 0px 10px 20px 0px #29292A12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(8px);}
+
+.img-chef {
+    width: 120px;
+    height: 100px;}
+    
+.category_list{
+    gap: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;}
+
+.category_item{
+    margin-right: 15px;
+    border-color: black;
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(255, 136, 0, 0.541);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px white;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    width: 100px;}
+
+.category_item:hover{
+    color: rgb(44, 44, 44);
+    background-color: #8fd3d8;}
+
+.nombre {
+    background: radial-gradient(54.25% 1197.23% at 58.21% 53.55%, #ffbf3e 45%, rgba(220, 148, 9, 0) 100%);
+    transform: matrix(1, -0.08, 0.07, 1, 0, 0);
+    width: 196px; 
+    height: 35px;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin: -5px auto 0 auto;
+    position: relative;
+    margin-bottom: 20px;}
+
+.nombre p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.2;
+    width: 160px; 
+    height: 40px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: 0 0 0 -35%;}
+
+.nombre1 {
+    background: radial-gradient(54.25% 1197.23% at 58.21% 53.55%, #ffbf3e 45%, rgba(220, 148, 9, 0) 100%);
+    transform: matrix(1, -0.08, 0.07, 1, 0, 0);
+    width: 196px; 
+    height: 90px;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    position: relative;}
+
+.nombre1 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.2;
+    width: 160px; 
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin: 0 0 0 -35%;}
+
+    
+p{font-family: 'Open Sans Condensed', sans-serif;}
+
+.bandera {
+    height: 32px;
+    width: 33px;
+    margin-left: 165px;
+    opacity: 0.7;}
+
+.nombre img {
+    height: 43px;
+    width: 40px;
+    margin-top: -5px;}
+
+.chartContainer{
+    margin-top: 40px;
+    margin-bottom: 30px;}    
+
+footer{
+    margin-top: 60px;
+    padding: 15px;
+    background-color: rgba(222, 184, 135, 0.897);
+    height: 100%;
+    width: 100%;
+    text-align: center;} 
